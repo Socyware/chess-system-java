@@ -1,12 +1,12 @@
 package boardgame;
 
 public class Position {
-	
+
 	private int row;
 	private int column;
-	
-	public Position () {
-		
+
+	public Position() {
+
 	}
 
 	public Position(int row, int column) {
@@ -32,8 +32,7 @@ public class Position {
 
 	@Override
 	public String toString() {
-		return "Position row " + row + " column " + column; 
+		return "Position row " + row + " column " + column;
 	}
 
-	
 }
